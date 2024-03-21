@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-primary
+}
+
+.bg-custom{
+  background-image: url('/tryfit/pages/images/background.png');
+}
+
+.btn_green{
+  @apply border border-btn_hover bg-btn_hover/30 backdrop-blur-md text-white;
+}
+
+@font-face {
+  font-family: 'Aventa';
+  src: url('/fonts/Aventa-Regular.woff2') format('woff2'),
+       url('/fonts/Aventa-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Heavitas';
+  src: url('/fonts/Heavitas.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aventa Extra';
+  src: url('/fonts/Aventa-ExtraBoldItalic.woff2') format('woff2'),
+       url('/fonts/Aventa-ExtraBoldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
